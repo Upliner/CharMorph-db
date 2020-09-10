@@ -1,0 +1,148 @@
+CY Silken Black:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 1.0
+    melanin_redness: 0.3
+    tint: &tint1 [1, 0.522522, 0.522522]
+    roughness: 0.5
+    radial_roughness: 0.05
+    ior: 1.45
+    offset: 0.0349
+    viewport_color: [0.02,0.02,0.02]
+
+CY Dark Brown:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 0.814
+    melanin_redness: 0.3
+    tint: *tint1
+    roughness: 0.5
+    radial_roughness: 0.05
+    ior: 1.45
+    offset: 0.0349
+    viewport_color: [0.08,0.04,0.02]
+
+CY Cocoa Brown:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 0.514
+    melanin_redness: 0.3
+    tint: *tint1
+    roughness: 0.5
+    radial_roughness: 0.05
+    ior: 1.45
+    offset: 0.0349
+    viewport_color: [0.25,0.12,0.05]
+
+CY Plum:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 0.3
+    melanin_redness: 0.3
+    tint: *tint1
+    roughness: 0.5
+    radial_roughness: 0.05
+    ior: 1.45
+    offset: 0.0349
+    viewport_color: [0.33,0.17,0.05]
+
+CY Light Golden Brown:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 0.114
+    melanin_redness: 0.3
+    tint: *tint1
+    roughness: 0.5
+    radial_roughness: 0.05
+    ior: 1.45
+    offset: 0.0349
+    viewport_color: [0.7,0.5,0.25]
+
+CY Honey Blonde:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 0.372727
+    melanin_redness: 1
+    tint: *tint1
+    roughness: 0.5
+    radial_roughness: 0.268182
+    ior: 1.45
+    offset: 0.0349
+    viewport_color: [0.6,0.26,0.08]
+
+CY Light Blonde:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 0.372727
+    melanin_redness: 1
+    tint: *tint1
+    roughness: 0.5
+    radial_roughness: 0.268182
+    coat: 0.686364
+    ior: 5.15
+    offset: 0.18
+    viewport_color: [0.6,0.3,0.05]
+
+CY Burgundy:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 1
+    melanin_redness: 0.00454551
+    tint: [0.0476383, 0.0342541, 0.0058471]
+    roughness: 0.5
+    radial_roughness: 0.268182
+    coat: 0.686364
+    ior: 5.15
+    offset: 0.18
+    random_color: 0.568182
+    viewport_color: [0.13,0.085,0.08]
+
+CY Cherrywood:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 1
+    melanin_redness: 0.00454551
+    tint: [0.0387783, 0.0280837, 0.00508592]
+    roughness: 0.5
+    radial_roughness: 0.268182
+    coat: 0.686364
+    ior: 5.15
+    offset: 0.18
+    random_color: 0.568182
+    viewport_color: [0.13,0.085,0.08]
+
+CY Natural Black:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: MELANIN
+    melanin: 1
+    melanin_redness: 0.00454551
+    tint: [0, 0, 0]
+    roughness: 0.5
+    radial_roughness: 0.268182
+    coat: 0.686364
+    ior: 5.15
+    offset: 0.18
+    random_color: 0.568182
+    viewport_color: [0.05,0.05,0.05]
+
+CY Jet Black:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: COLOR
+    color: [0, 0, 0]
+    roughness: 0.5
+    radial_roughness: 0.268182
+    coat: 0.686364
+    ior: 1.55
+    offset: 0.0349
+    viewport_color: [0.002,0.002,0.002]
+
+CY Auburn:
+    type: ShaderNodeBsdfHairPrincipled
+    parametrization: ABSORPTION
+    absorption_coeff: [0.256, 0.52, 1.365]
+    roughness: 0.5
+    radial_roughness: 0.268182
+    coat: 0.686364
+    ior: 1.55
+    offset: 0.0349
+    viewport_color: [0.5,0.2,0.05]
