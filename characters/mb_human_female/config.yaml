@@ -2,9 +2,9 @@ title: Human female (MB-Lab, AGPL3)
 author: Manuel Bastioni
 license: AGPL3
 
-default_type: ca01
+default_type: Caucasian
 char_file: char.blend
-obj_name: mb_female
+char_obj: mb_female
 material_lib: ../../shared_lib.blend
 
 default_hair_length: 0.3
@@ -35,33 +35,27 @@ materials:
   - charmorph_nails
 
 types:
-  ca01:
-    title: Caucasian
+  Caucasian:
     mtl_props:
       skin_color: &col1 [0.896, 0.456, 0.279]
       nails_natural_color: *col1
-  an03:
-    title: Anime
+  Anime:
     mtl_props:
       skin_color: *col1
       nails_natural_color: *col1
-  ft01:
-    title: Elf
+  Elf:
     mtl_props:
       skin_color: *col1
       nails_natural_color: *col1
-  la01:
-    title: Latin
+  Latin:
     mtl_props:
       skin_color: &col2 [0.485, 0.147, 0.080]
       nails_natural_color: *col2
-  as01:
-    title: Asian
+  Asian:
     mtl_props:
       skin_color: *col2
       nails_natural_color: *col2
-  af01:
-    title: African
+  African:
     mtl_props:
       skin_color: &col3 [0.07, 0.033, 0.026]
       nails_natural_color: *col3
