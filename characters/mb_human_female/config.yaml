@@ -17,9 +17,22 @@ hairstyles:
 
 armature:
   -
+    title: Tweaked
     type: rigify
     file: ../../shared_lib.blend
     obj_name: metarig
+    joints: joints/tweaked.npz
+    weights: weights/tweaked.npz
+    tweaks:
+      - ../../rigify_tweaks.yaml
+      - rigify_sliding_joints.yaml
+  -
+    title: Original
+    type: rigify
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    joints: joints/original.npz
+    weights: weights/original.npz
     tweaks: ../../rigify_tweaks.yaml
 
 materials:
