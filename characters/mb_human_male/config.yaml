@@ -20,7 +20,7 @@ armature:
     obj_name: metarig
     weights: weights/tweaked.npz
     tweaks:
-      - ../../rigify_tweaks.yaml
+      - ../../tweaks/rigify_default.yaml
       - tweaks/eyes.yaml
       - tweaks/tweaked.yaml
   -
@@ -30,9 +30,9 @@ armature:
     obj_name: metarig
     weights: weights/original.npz
     tweaks:
-      - ../../rigify_tweaks.yaml
+      - ../../tweaks/rigify_default.yaml
       - tweaks/eyes.yaml
-      - tweaks/original.yaml
+      - ../../tweaks/spine_nobendy.yaml
   -
     title: Gaming
     type: regular

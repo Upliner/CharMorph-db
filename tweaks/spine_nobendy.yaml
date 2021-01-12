@@ -13,7 +13,7 @@
   select: bone
   bone: DEF-spine.002
   set:
-    bbone_segments: 2
+    bbone_segments: 1
 -
   select: bone
   bone: DEF-spine.003
