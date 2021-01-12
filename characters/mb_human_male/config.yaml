@@ -1,0 +1,86 @@
+title: Human male (MB-Lab, AGPL3)
+author: Manuel Bastioni
+license: AGPL3
+
+default_type: Caucasian
+char_file: char.blend
+char_obj: mb_male
+material_lib: ../../shared_lib.blend
+
+default_hair_length: 0.1
+#hair_library: hair.blend
+#hair_obj: hair
+hairstyles: []
+
+armature:
+  -
+    title: Tweaked
+    type: rigify
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    weights: weights/tweaked.npz
+    tweaks:
+      - ../../rigify_tweaks.yaml
+      - tweaks/eyes.yaml
+      - tweaks/tweaked.yaml
+  -
+    title: Original
+    type: rigify
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    weights: weights/original.npz
+    tweaks:
+      - ../../rigify_tweaks.yaml
+      - tweaks/eyes.yaml
+      - tweaks/original.yaml
+  -
+    title: Gaming
+    type: regular
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    weights: weights/gaming.npz
+
+materials:
+  - charmorph_skin_v2
+  - charmorph_censor
+  - MBlab_eyelash
+  - MBlab_pupil
+  - MBlab_human_eyes
+  - MBlab_cornea
+  - charmorph_iris
+  - MBLab_tongue
+  - MBlab_human_teeth
+  - charmorph_nails_v2
+
+types:
+  Caucasian:
+    mtl_props:
+      skin_color: &col1 [0.896, 0.456, 0.279]
+      nails_natural_color: *col1
+  Anime:
+    morphs_meta: morphs_meta_fantasy.yaml
+    mtl_props:
+      skin_color: *col1
+      nails_natural_color: *col1
+  Elf:
+    morphs_meta: morphs_meta_fantasy.yaml
+    mtl_props:
+      skin_color: *col1
+      nails_natural_color: *col1
+  Latin:
+    mtl_props:
+      skin_color: &col2 [0.485, 0.147, 0.080]
+      nails_natural_color: *col2
+  Dwarf:
+    morphs_meta: morphs_meta_fantasy.yaml
+    mtl_props:
+      skin_color: *col2
+      nails_natural_color: *col2
+  Asian:
+    mtl_props:
+      skin_color: *col2
+      nails_natural_color: *col2
+  African:
+    mtl_props:
+      skin_color: &col3 [0.07, 0.033, 0.026]
+      nails_natural_color: *col3

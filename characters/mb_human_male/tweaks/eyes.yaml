@@ -1,0 +1,34 @@
+# Male character has a big bulge on his cornea so when looking down he needs to stretch his lower eyelid a little forward
+-
+  select: pose_bone
+  bone: MCH-lid.B.L.002
+  add: constraint
+  type: STRETCH_TO
+  set:
+    subtarget: lid.B.L.002
+    volume: NO_VOLUME
+-
+  select: pose_bone
+  bone: MCH-lid.B.L.002
+  add: constraint
+  type: LIMIT_SCALE
+  set:
+    min_y: 1
+    use_min_y: true
+
+-
+  select: pose_bone
+  bone: MCH-lid.B.R.002
+  add: constraint
+  type: STRETCH_TO
+  set:
+    subtarget: lid.B.R.002
+    volume: NO_VOLUME
+-
+  select: pose_bone
+  bone: MCH-lid.B.R.002
+  add: constraint
+  type: LIMIT_SCALE
+  set:
+    min_y: 1
+    use_min_y: true

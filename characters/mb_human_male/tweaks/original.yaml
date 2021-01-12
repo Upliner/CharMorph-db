@@ -1,0 +1,21 @@
+# Spine bones for the character aren't originally designed to be bendy. Disable bending for them
+-
+  select: bone
+  bone: DEF-spine
+  set:
+    bbone_segments: 1
+-
+  select: bone
+  bone: DEF-spine.001
+  set:
+    bbone_segments: 1
+-
+  select: bone
+  bone: DEF-spine.002
+  set:
+    bbone_segments: 2
+-
+  select: bone
+  bone: DEF-spine.003
+  set:
+    bbone_segments: 1

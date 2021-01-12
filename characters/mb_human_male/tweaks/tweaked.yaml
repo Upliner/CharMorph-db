@@ -1,0 +1,34 @@
+# One of spine bones of male character is too short and bending it causes some undesirable effects. Disable bending for it
+-
+  select: bone
+  bone: DEF-spine.001
+  set:
+    bbone_segments: 2 # for some reason making this bone completely non-bendy makes distortion too. So just assign minimum bendy number of segments
+    bbone_easein: 0
+    bbone_easeout: 0
+
+# For male character we use bendy bones to prevent elbow scissoring
+-
+  select: pose_bone
+  bone: DEF-upper_arm.L.001
+  set:
+    bbone_easein: 1
+    bbone_easeout: 1
+-
+  select: pose_bone
+  bone: DEF-forearm.L
+  set:
+    bbone_easein: 1
+    bbone_easeout: 1
+-
+  select: pose_bone
+  bone: DEF-upper_arm.R.001
+  set:
+    bbone_easein: 1
+    bbone_easeout: 1
+-
+  select: pose_bone
+  bone: DEF-forearm.R
+  set:
+    bbone_easein: 1
+    bbone_easeout: 1
