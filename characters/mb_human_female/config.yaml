@@ -15,6 +15,7 @@ hairstyles:
   - back1
   - frontback1
 
+bones: ../../mb_bones.yaml
 armature:
   -
     title: Tweaked

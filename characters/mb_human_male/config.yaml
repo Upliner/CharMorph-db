@@ -12,6 +12,7 @@ default_hair_length: 0.1
 #hair_obj: hair
 hairstyles: []
 
+bones: ../../mb_bones.yaml
 armature:
   -
     title: Tweaked

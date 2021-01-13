@@ -12,15 +12,15 @@
     MCH-lwrm_muscle_03_T.R: DEF-hand.R
     MCH-lwrm_muscle_02_T.R: DEF-hand.R
     MCH-lwrm_muscle_04_T.R: DEF-hand.R
-    MCH-tcs_muscle_01_T.R: DEF-forearm.R.001
+    MCH-tcs_muscle_01_T.R: DEF-forearm.R
     MCH-shld_muscle01_T.R: DEF-upper_arm.R
     MCH-pct_muscle_01_T.R: DEF-upper_arm.R
     MCH-bcs_muscle_01_H.R: DEF-upper_arm.R
-    MCH-lwrm_muscle_01_H.R: DEF-upper_arm.R
-    MCH-lwrm_muscle_02_H.R: DEF-upper_arm.R
-    MCH-lwrm_muscle_03_H.R: DEF-upper_arm.R
-    MCH-lwrm_muscle_04_H.R: DEF-upper_arm.R
-    MCH-rot_helper02.R: DEF-upper_arm.R
+    MCH-lwrm_muscle_01_H.R: DEF-upper_arm.R.001
+    MCH-lwrm_muscle_02_H.R: DEF-upper_arm.R.001
+    MCH-lwrm_muscle_03_H.R: DEF-upper_arm.R.001
+    MCH-lwrm_muscle_04_H.R: DEF-upper_arm.R.001
+    MCH-rot_helper02.R: DEF-upper_arm.R.001
     MCH-shld_muscle02_T.R: DEF-upper_arm.R
     MCH-nk_muscle_02_H.R: DEF-shoulder.R
     MCH-shld_muscle01_H.R: DEF-shoulder.R
@@ -31,15 +31,15 @@
     MCH-lwrm_muscle_03_T.L: DEF-hand.L
     MCH-lwrm_muscle_02_T.L: DEF-hand.L
     MCH-lwrm_muscle_04_T.L: DEF-hand.L
-    MCH-tcs_muscle_01_T.L: DEF-forearm.L.001
+    MCH-tcs_muscle_01_T.L: DEF-forearm.L
     MCH-shld_muscle01_T.L: DEF-upper_arm.L
     MCH-pct_muscle_01_T.L: DEF-upper_arm.L
     MCH-bcs_muscle_01_H.L: DEF-upper_arm.L
-    MCH-lwrm_muscle_01_H.L: DEF-upper_arm.L
-    MCH-lwrm_muscle_02_H.L: DEF-upper_arm.L
-    MCH-lwrm_muscle_03_H.L: DEF-upper_arm.L
-    MCH-lwrm_muscle_04_H.L: DEF-upper_arm.L
-    MCH-rot_helper02.L: DEF-upper_arm.L
+    MCH-lwrm_muscle_01_H.L: DEF-upper_arm.L.001
+    MCH-lwrm_muscle_02_H.L: DEF-upper_arm.L.001
+    MCH-lwrm_muscle_03_H.L: DEF-upper_arm.L.001
+    MCH-lwrm_muscle_04_H.L: DEF-upper_arm.L.001
+    MCH-rot_helper02.L: DEF-upper_arm.L.001
     MCH-shld_muscle02_T.L: DEF-upper_arm.L
     MCH-nk_muscle_02_H.L: DEF-shoulder.L
     MCH-shld_muscle01_H.L: DEF-shoulder.L

@@ -1,0 +1,441 @@
+# Regular rig
+breast.L:
+  axis_z: [0.0, 0.0, 1.0]
+breast.R:
+  axis_z: [0.0, 0.0, 1.0]
+f_index.01.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_index.01.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_index.02.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_index.02.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_index.03.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_index.03.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_middle.01.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_middle.01.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_middle.02.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_middle.02.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_middle.03.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_middle.03.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_pinky.01.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_pinky.01.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_pinky.02.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_pinky.02.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_pinky.03.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_pinky.03.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_ring.01.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_ring.01.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_ring.02.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_ring.02.R:
+  axis_z: [0.0, 0.0, -1.0]
+f_ring.03.L:
+  axis_z: [0.0, 0.0, -1.0]
+f_ring.03.R:
+  axis_z: [0.0, 0.0, -1.0]
+foot.L:
+  axis_x: [1.0, 0.0, 0.0]
+foot.R:
+  axis_x: [1.0, 0.0, 0.0]
+forearm.L:
+  axis_z: [0.0, -1, 0]
+forearm.R:
+  axis_z: [0.0, -1, 0]
+hand.L:
+  axis_x: [0.0, 0.0, -1.0]
+hand.R:
+  axis_x: [0.0, 0.0, 1.0]
+heel.02.L:
+  axis_z: [0.0, 0.0, 1.0]
+  offs_head: [-0.02, 0.005, -0.002]
+  offs_tail: [0.02, 0.005, -0.002]
+heel.02.R:
+  axis_z: [0.0, 0.0, 1.0]
+  offs_head: [0.02, 0.005, -0.002]
+  offs_tail: [-0.02, 0.005, -0.002]
+palm.01.L:
+  axis_z: [0.0, 0.0, -1.0]
+palm.01.R:
+  axis_z: [0.0, 0.0, -1.0]
+palm.02.L:
+  axis_z: [0.0, 0.0, -1.0]
+palm.02.R:
+  axis_z: [0.0, 0.0, -1.0]
+palm.03.L:
+  axis_z: [0.0, 0.0, -1.0]
+palm.03.R:
+  axis_z: [0.0, 0.0, -1.0]
+palm.04.L:
+  axis_z: [0.0, 0.0, -1.0]
+palm.04.R:
+  axis_z: [0.0, 0.0, -1.0]
+shin.L:
+  axis_x: [0.98951, 0.0336, 0.14046]
+shin.R:
+  axis_x: [0.98951, -0.0336, -0.14046]
+shoulder.L:
+  axis_z: [0.0, 0.0, 1.0]
+  offs_tail: [-0.02072, 0.00651, 0.00362]
+shoulder.R:
+  axis_z: [0.0, 0.0, 1.0]
+  offs_tail: [0.02072, 0.00651, 0.00362]
+thigh.L:
+  axis_z: [0.0, 1.0, 0.0]
+thigh.R:
+  axis_z: [0.0, 1.0, 0.0]
+thumb.01.L:
+  axis_z: [0.33649, 0.73318, -0.59094]
+thumb.01.R:
+  axis_z: [-0.33649, 0.73318, -0.59094]
+thumb.02.L:
+  axis_z: [0.31247, 0.57642, -0.75505]
+thumb.02.R:
+  axis_z: [-0.31247, 0.57642, -0.75505]
+thumb.03.L:
+  axis_z: [0.24166, 0.80309, -0.54465]
+thumb.03.R:
+  axis_z: [-0.24166, 0.80309, -0.54465]
+toe.L:
+  axis_x: [-1.0, 0.0, 0.0]
+toe.R:
+  axis_x: [-1.0, 0.0, 0.0]
+upper_arm.L:
+  axis_x: [0.0, 0.0, -1.0]
+  offs_head: [-0.02072, 0.00651, 0.00362]
+upper_arm.R:
+  axis_x: [0.0, 0.0, 1.0]
+  offs_head: [0.02072, 0.00651, 0.00362]
+
+# Muscles
+DEF-abd_muscle_01.L:
+  axis_z: [0.05766, -0.99705, 0.0506]
+DEF-abd_muscle_01.R:
+  axis_z: [-0.05766, -0.99705, 0.0506]
+DEF-bcs_muscle_01.L:
+  axis_z: [0.02741, -0.99943, -0.01973]
+DEF-bcs_muscle_01.R:
+  axis_z: [-0.02741, -0.99943, -0.01973]
+DEF-bk_muscle_02.L:
+  axis_z: [0.0029, -0.99984, 0.01783]
+DEF-bk_muscle_02.R:
+  axis_z: [-0.0029, -0.99984, 0.01783]
+DEF-glt_muscle_02.L:
+  axis_z: [0.07538, 0.9575, 0.27841]
+DEF-glt_muscle_02.R:
+  axis_z: [-0.07538, 0.9575, 0.27841]
+DEF-lgs_muscle_01.L:
+  axis_z: [0.11149, 0.99363, -0.01665]
+DEF-lgs_muscle_01.R:
+  axis_z: [-0.11149, 0.99363, -0.01665]
+DEF-lgs_muscle_02.L:
+  axis_z: [0.11641, 0.99318, 0.00612]
+DEF-lgs_muscle_02.R:
+  axis_z: [-0.11641, 0.99318, 0.00612]
+DEF-lgs_muscle_03.L:
+  axis_z: [0.07902, 0.99677, -0.01445]
+DEF-lgs_muscle_03.R:
+  axis_z: [-0.07902, 0.99677, -0.01445]
+DEF-lgs_muscle_04.L:
+  axis_z: [0.16809, 0.98298, -0.07412]
+DEF-lgs_muscle_04.R:
+  axis_z: [-0.16809, 0.98298, -0.07412]
+DEF-lgs_muscle_05.L:
+  axis_z: [-0.02548, 0.99942, 0.02244]
+DEF-lgs_muscle_05.R:
+  axis_z: [0.02548, 0.99942, 0.02244]
+DEF-lwrl_muscle_01.L:
+  axis_z: [0.14418, -0.98773, 0.06005]
+DEF-lwrl_muscle_01.R:
+  axis_z: [-0.14418, -0.98773, 0.06005]
+DEF-lwrl_muscle_02.L:
+  axis_z: [0.13467, -0.98869, 0.06606]
+DEF-lwrl_muscle_02.R:
+  axis_z: [-0.13467, -0.98869, 0.06606]
+DEF-lwrl_muscle_03.L:
+  axis_z: [-0.07679, -0.98871, 0.12864]
+DEF-lwrl_muscle_03.R:
+  axis_z: [0.07679, -0.98871, 0.12864]
+DEF-lwrl_muscle_04.L:
+  axis_z: [0.15156, -0.98843, -0.0054]
+DEF-lwrl_muscle_04.R:
+  axis_z: [-0.15156, -0.98843, -0.0054]
+DEF-lwrm_muscle_01.L:
+  axis_z: [-0.05801, -0.95534, 0.28975]
+DEF-lwrm_muscle_01.R:
+  axis_z: [0.05801, -0.95534, 0.28975]
+DEF-lwrm_muscle_02.L:
+  axis_z: [-0.12612, -0.95123, 0.28152]
+DEF-lwrm_muscle_02.R:
+  axis_z: [0.12612, -0.95123, 0.28152]
+DEF-lwrm_muscle_03.L:
+  axis_z: [-0.02113, -0.97808, -0.20714]
+DEF-lwrm_muscle_03.R:
+  axis_z: [0.02113, -0.97808, -0.20714]
+DEF-lwrm_muscle_04.L:
+  axis_z: [-0.01785, -0.99908, 0.03892]
+DEF-lwrm_muscle_04.R:
+  axis_z: [0.01785, -0.99908, 0.03892]
+DEF-nk_muscle_01.L:
+  axis_z: [-0.16226, -0.92037, 0.35579]
+DEF-nk_muscle_01.R:
+  axis_z: [0.16226, -0.92037, 0.35579]
+DEF-nk_muscle_02.L:
+  axis_z: [0.39238, 0.30625, 0.86732]
+DEF-nk_muscle_02.R:
+  axis_z: [-0.39238, 0.30625, 0.86732]
+DEF-nk_muscle_03:
+  axis_z: [0.0, -0.95261, -0.30419]
+DEF-nk_muscle_04:
+  axis_z: [0.0, -0.93025, -0.36692]
+DEF-pct_muscle_01.L:
+  axis_z: [-0.00767, -0.77525, 0.63161]
+DEF-pct_muscle_01.R:
+  axis_z: [0.00767, -0.77525, 0.63161]
+DEF-shld_muscle01.L:
+  axis_z: [0.02453, -0.99673, 0.07699]
+DEF-shld_muscle01.R:
+  axis_z: [-0.02453, -0.99673, 0.07699]
+DEF-shld_muscle02.L:
+  axis_z: [0.2789, -0.95969, -0.03483]
+DEF-shld_muscle02.R:
+  axis_z: [-0.2789, -0.95969, -0.03483]
+DEF-spn_muscle_01:
+  axis_z: [0.0, -0.99902, -0.04425]
+DEF-tcs_muscle_01.L:
+  axis_z: [-0.17445, -0.98328, -0.05215]
+DEF-tcs_muscle_01.R:
+  axis_z: [0.17445, -0.98328, -0.05215]
+MCH-abd_muscle_01_H.L:
+  axis_z: [0.25816, -0.25637, -0.93146]
+MCH-abd_muscle_01_H.R:
+  axis_z: [-0.25816, -0.25637, -0.93146]
+MCH-abd_muscle_01_T.L:
+  axis_z: [0.08035, -0.43523, 0.89672]
+MCH-abd_muscle_01_T.R:
+  axis_z: [-0.08035, -0.43523, 0.89672]
+MCH-bcs_muscle_01_H.L:
+  axis_z: [-0.24879, -0.96044, 0.12515]
+MCH-bcs_muscle_01_H.R:
+  axis_z: [0.24879, -0.96044, 0.12515]
+MCH-bcs_muscle_01_T.L:
+  axis_z: [0.62436, -0.70156, -0.3435]
+MCH-bcs_muscle_01_T.R:
+  axis_z: [-0.62436, -0.70156, -0.3435]
+MCH-bk_muscle_02_H.L:
+  axis_z: [-0.13627, -0.98813, -0.07088]
+MCH-bk_muscle_02_H.R:
+  axis_z: [0.13627, -0.98813, -0.07088]
+MCH-bk_muscle_02_T.L:
+  axis_z: [-0.16081, -0.95968, 0.23056]
+MCH-bk_muscle_02_T.R:
+  axis_z: [0.16081, -0.95968, 0.23056]
+MCH-glt_muscle_02_H.L:
+  axis_z: [-0.02418, 0.31077, 0.95018]
+MCH-glt_muscle_02_H.R:
+  axis_z: [0.02418, 0.31077, 0.95018]
+MCH-glt_muscle_02_T.L:
+  axis_z: [0.20713, 0.79888, -0.56471]
+MCH-glt_muscle_02_T.R:
+  axis_z: [-0.20713, 0.79888, -0.56471]
+MCH-lgs_muscle_01_H.L:
+  axis_z: [0.11189, 0.98484, 0.13253]
+MCH-lgs_muscle_01_H.R:
+  axis_z: [-0.11189, 0.98484, 0.13253]
+MCH-lgs_muscle_01_T.L:
+  axis_z: [0.1701, 0.98418, 0.04963]
+MCH-lgs_muscle_01_T.R:
+  axis_z: [-0.1701, 0.98418, 0.04963]
+MCH-lgs_muscle_02_H.L:
+  axis_z: [0.10259, 0.93062, 0.35133]
+MCH-lgs_muscle_02_H.R:
+  axis_z: [-0.10259, 0.93062, 0.35133]
+MCH-lgs_muscle_02_T.L:
+  axis_z: [0.10097, 0.89985, 0.42436]
+MCH-lgs_muscle_02_T.R:
+  axis_z: [-0.10097, 0.89985, 0.42436]
+MCH-lgs_muscle_03_H.L:
+  axis_z: [0.19366, 0.97906, -0.06269]
+MCH-lgs_muscle_03_H.R:
+  axis_z: [-0.19366, 0.97906, -0.06269]
+MCH-lgs_muscle_03_T.L:
+  axis_z: [0.19203, 0.95416, -0.22958]
+MCH-lgs_muscle_03_T.R:
+  axis_z: [-0.19203, 0.95416, -0.22958]
+MCH-lgs_muscle_04_H.L:
+  axis_z: [0.09966, 0.90578, 0.41185]
+MCH-lgs_muscle_04_H.R:
+  axis_z: [-0.09966, 0.90578, 0.41185]
+MCH-lgs_muscle_04_T.L:
+  axis_z: [0.2845, 0.54697, -0.78732]
+MCH-lgs_muscle_04_T.R:
+  axis_z: [-0.2845, 0.54697, -0.78732]
+MCH-lgs_muscle_05_H.L:
+  axis_z: [0.19366, 0.97906, -0.06269]
+MCH-lgs_muscle_05_H.R:
+  axis_z: [-0.19366, 0.97906, -0.06269]
+MCH-lgs_muscle_05_T.L:
+  axis_z: [0.13803, 0.99041, 0.00528]
+MCH-lgs_muscle_05_T.R:
+  axis_z: [-0.13803, 0.99041, 0.00528]
+MCH-lwrl_muscle_01_H.L:
+  axis_z: [0.16576, -0.97421, -0.15306]
+MCH-lwrl_muscle_01_H.R:
+  axis_z: [-0.16576, -0.97421, -0.15306]
+MCH-lwrl_muscle_01_T.L:
+  axis_z: [0.0312, -0.44977, 0.8926]
+MCH-lwrl_muscle_01_T.R:
+  axis_z: [-0.0312, -0.44977, 0.8926]
+MCH-lwrl_muscle_02_H.L:
+  axis_z: [0.15254, -0.98134, 0.11711]
+MCH-lwrl_muscle_02_H.R:
+  axis_z: [-0.15254, -0.98134, 0.11711]
+MCH-lwrl_muscle_02_T.L:
+  axis_z: [0.08004, -0.85593, 0.51086]
+MCH-lwrl_muscle_02_T.R:
+  axis_z: [-0.08004, -0.85593, 0.51086]
+MCH-lwrl_muscle_03_H.L:
+  axis_z: [0.05639, -0.98374, -0.17053]
+MCH-lwrl_muscle_03_H.R:
+  axis_z: [-0.05639, -0.98374, -0.17053]
+MCH-lwrl_muscle_03_T.L:
+  axis_z: [0.13439, -0.98117, 0.13871]
+MCH-lwrl_muscle_03_T.R:
+  axis_z: [-0.13439, -0.98117, 0.13871]
+MCH-lwrl_muscle_04_H.L:
+  axis_z: [0.16212, -0.98509, 0.05748]
+MCH-lwrl_muscle_04_H.R:
+  axis_z: [-0.16212, -0.98509, 0.05748]
+MCH-lwrl_muscle_04_T.L:
+  axis_z: [0.09259, -0.83681, 0.5396]
+MCH-lwrl_muscle_04_T.R:
+  axis_z: [-0.09259, -0.83681, 0.5396]
+MCH-lwrm_muscle_01_H.L:
+  axis_z: [-0.0778, -0.94941, 0.30425]
+MCH-lwrm_muscle_01_H.R:
+  axis_z: [0.0778, -0.94941, 0.30425]
+MCH-lwrm_muscle_01_T.L:
+  axis_z: [-0.00697, -0.96533, 0.26093]
+MCH-lwrm_muscle_01_T.R:
+  axis_z: [0.00697, -0.96533, 0.26093]
+MCH-lwrm_muscle_02_H.L:
+  axis_z: [0.13548, -0.9737, 0.18317]
+MCH-lwrm_muscle_02_H.R:
+  axis_z: [-0.13548, -0.9737, 0.18317]
+MCH-lwrm_muscle_02_T.L:
+  axis_z: [-0.17034, -0.97274, 0.15738]
+MCH-lwrm_muscle_02_T.R:
+  axis_z: [0.17034, -0.97274, 0.15738]
+MCH-lwrm_muscle_03_H.L:
+  axis_z: [-0.057, -0.98239, -0.17792]
+MCH-lwrm_muscle_03_H.R:
+  axis_z: [0.057, -0.98239, -0.17792]
+MCH-lwrm_muscle_03_T.L:
+  axis_z: [-0.10672, -0.98332, -0.14727]
+MCH-lwrm_muscle_03_T.R:
+  axis_z: [0.10672, -0.98332, -0.14727]
+MCH-lwrm_muscle_04_H.L:
+  axis_z: [-0.18187, -0.9782, 0.10027]
+MCH-lwrm_muscle_04_H.R:
+  axis_z: [0.18187, -0.9782, 0.10027]
+MCH-lwrm_muscle_04_T.L:
+  axis_z: [-0.0605, -0.99763, 0.03273]
+MCH-lwrm_muscle_04_T.R:
+  axis_z: [0.0605, -0.99763, 0.03273]
+MCH-nk_muscle_01_H.L:
+  axis_z: [-0.16696, -0.81983, 0.54773]
+MCH-nk_muscle_01_H.R:
+  axis_z: [0.16696, -0.81983, 0.54773]
+MCH-nk_muscle_01_T.L:
+  axis_z: [-0.17093, -0.97284, 0.15609]
+MCH-nk_muscle_01_T.R:
+  axis_z: [0.17093, -0.97284, 0.15609]
+MCH-nk_muscle_02_H.L:
+  axis_z: [0.33583, 0.64086, 0.6903]
+MCH-nk_muscle_02_H.R:
+  axis_z: [-0.33583, 0.64086, 0.6903]
+MCH-nk_muscle_02_T.L:
+  axis_z: [0.23536, 0.32462, 0.91609]
+MCH-nk_muscle_02_T.R:
+  axis_z: [-0.23536, 0.32462, 0.91609]
+MCH-nk_muscle_03_H:
+  axis_z: [0.0, -0.96941, -0.24546]
+MCH-nk_muscle_03_T:
+  axis_z: [0.0, -0.99796, 0.06378]
+MCH-nk_muscle_04_H:
+  axis_z: [0.0, -0.77058, -0.63735]
+MCH-nk_muscle_04_T:
+  axis_z: [0.0, -0.94858, -0.31653]
+MCH-pct_muscle_01_H.L:
+  axis_z: [-0.23588, -0.81063, 0.53594]
+MCH-pct_muscle_01_H.R:
+  axis_z: [0.23588, -0.81063, 0.53594]
+MCH-pct_muscle_01_T.L:
+  axis_z: [0.14717, -0.80031, 0.58124]
+MCH-pct_muscle_01_T.R:
+  axis_z: [-0.14717, -0.80031, 0.58124]
+MCH-rot_helper01.L:
+  axis_z: [-0.03331, 0.99944, -0.00218]
+MCH-rot_helper01.R:
+  axis_z: [0.03331, 0.99944, -0.00218]
+MCH-rot_helper02.L:
+  axis_z: [-0.16251, -0.98547, 0.04942]
+MCH-rot_helper02.R:
+  axis_z: [0.16251, -0.98547, 0.04942]
+MCH-rot_helper03.L:
+  axis_z: [0.00202, 0.99822, -0.05959]
+MCH-rot_helper03.R:
+  axis_z: [-0.00202, 0.99822, -0.05959]
+MCH-rot_helper04.L:
+  axis_z: [-0.03074, 0.48279, -0.8752]
+MCH-rot_helper04.R:
+  axis_z: [0.03074, 0.48279, -0.8752]
+MCH-rot_helper06.L:
+  axis_z: [0.00202, 0.99822, -0.05959]
+MCH-rot_helper06.R:
+  axis_z: [-0.00202, 0.99822, -0.05959]
+MCH-shld_muscle01_H.L:
+  axis_z: [0.07709, -0.99519, 0.0605]
+MCH-shld_muscle01_H.R:
+  axis_z: [-0.07709, -0.99519, 0.0605]
+MCH-shld_muscle01_T.L:
+  axis_z: [0.08079, -0.99625, -0.03084]
+MCH-shld_muscle01_T.R:
+  axis_z: [-0.08079, -0.99625, -0.03084]
+MCH-shld_muscle02_H.L:
+  axis_z: [-0.22504, -0.97198, 0.06791]
+MCH-shld_muscle02_H.R:
+  axis_z: [0.22504, -0.97198, 0.06791]
+MCH-shld_muscle02_T.L:
+  axis_z: [0.18263, -0.95523, -0.23277]
+MCH-shld_muscle02_T.R:
+  axis_z: [-0.18263, -0.95523, -0.23277]
+MCH-spn_muscle_01_H:
+  axis_z: [-0.0, -0.90535, -0.42466]
+MCH-spn_muscle_01_T:
+  axis_z: [0.0, -0.9924, -0.12303]
+MCH-tcs_muscle_01_H.L:
+  axis_z: [0.16026, -0.97371, -0.16186]
+MCH-tcs_muscle_01_H.R:
+  axis_z: [-0.16026, -0.97371, -0.16186]
+MCH-tcs_muscle_01_T.L:
+  axis_z: [-0.01703, -0.99254, -0.12072]
+MCH-tcs_muscle_01_T.R:
+  axis_z: [0.01703, -0.99254, -0.12072]
