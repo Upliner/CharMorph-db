@@ -391,26 +391,6 @@ MCH-pct_muscle_01_T.L:
   axis_z: [0.14717, -0.80031, 0.58124]
 MCH-pct_muscle_01_T.R:
   axis_z: [-0.14717, -0.80031, 0.58124]
-MCH-rot_helper01.L:
-  axis_z: [-0.03331, 0.99944, -0.00218]
-MCH-rot_helper01.R:
-  axis_z: [0.03331, 0.99944, -0.00218]
-MCH-rot_helper02.L:
-  axis_z: [-0.16251, -0.98547, 0.04942]
-MCH-rot_helper02.R:
-  axis_z: [0.16251, -0.98547, 0.04942]
-MCH-rot_helper03.L:
-  axis_z: [0.00202, 0.99822, -0.05959]
-MCH-rot_helper03.R:
-  axis_z: [-0.00202, 0.99822, -0.05959]
-MCH-rot_helper04.L:
-  axis_z: [-0.03074, 0.48279, -0.8752]
-MCH-rot_helper04.R:
-  axis_z: [0.03074, 0.48279, -0.8752]
-MCH-rot_helper06.L:
-  axis_z: [0.00202, 0.99822, -0.05959]
-MCH-rot_helper06.R:
-  axis_z: [-0.00202, 0.99822, -0.05959]
 MCH-shld_muscle01_H.L:
   axis_z: [0.07709, -0.99519, 0.0605]
 MCH-shld_muscle01_H.R:

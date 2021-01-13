@@ -1,7 +1,7 @@
 - spine_nobendy.yaml
 -
   tweak: assign_parents
-  parents:
+  bones:
     MCH-nk_muscle_01_T.L: DEF-spine.006
     MCH-nk_muscle_01_T.R: DEF-spine.006
     MCH-nk_muscle_04_T: DEF-spine.006
@@ -88,6 +88,19 @@
     MCH-abd_muscle_01_H.R: DEF-pelvis.R
     MCH-rot_helper06.R: DEF-pelvis.R
     MCH-rot_helper06.L: DEF-pelvis.L
+-
+  tweak: align
+  bones:
+    MCH-rot_helper01.L: ORG-shin.L
+    MCH-rot_helper01.R: ORG-shin.R
+    MCH-rot_helper02.L: ORG-forearm.L
+    MCH-rot_helper02.R: ORG-forearm.R
+    MCH-rot_helper03.L: ORG-thigh.L
+    MCH-rot_helper03.R: ORG-thigh.R
+    MCH-rot_helper04.L: ORG-foot.L
+    MCH-rot_helper04.R: ORG-foot.R
+    MCH-rot_helper06.L: ORG-thigh.L
+    MCH-rot_helper06.R: ORG-thigh.R
 -
   select: constraint
   bone: MCH-rot_helper01.L
