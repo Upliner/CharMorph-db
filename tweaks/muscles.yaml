@@ -88,3 +88,53 @@
     MCH-abd_muscle_01_H.R: DEF-pelvis.R
     MCH-rot_helper06.R: DEF-pelvis.R
     MCH-rot_helper06.L: DEF-pelvis.L
+-
+  select: constraint
+  bone: MCH-rot_helper01.L
+  name: Rot_helper
+  set: {subtarget: ORG-shin.L}
+-
+  select: constraint
+  bone: MCH-rot_helper01.R
+  name: Rot_helper
+  set: {subtarget: ORG-shin.R}
+-
+  select: constraint
+  bone: MCH-rot_helper02.L
+  name: Rot_helper
+  set: {subtarget: ORG-forearm.L}
+-
+  select: constraint
+  bone: MCH-rot_helper02.R
+  name: Rot_helper
+  set: {subtarget: ORG-forearm.R}
+-
+  select: constraint
+  bone: MCH-rot_helper03.L
+  name: Rot_helper
+  set: {subtarget: ORG-thigh.L}
+-
+  select: constraint
+  bone: MCH-rot_helper03.R
+  name: Rot_helper
+  set: {subtarget: ORG-thigh.R}
+-
+  select: constraint
+  bone: MCH-rot_helper04.L
+  name: Rot_helper
+  set: {subtarget: ORG-foot.L}
+-
+  select: constraint
+  bone: MCH-rot_helper04.R
+  name: Rot_helper
+  set: {subtarget: ORG-foot.R}
+-
+  select: constraint
+  bone: MCH-rot_helper06.L
+  name: Rot_helper
+  set: {subtarget: ORG-thigh.L}
+-
+  select: constraint
+  bone: MCH-rot_helper06.R
+  name: Rot_helper
+  set: {subtarget: ORG-thigh.R}
