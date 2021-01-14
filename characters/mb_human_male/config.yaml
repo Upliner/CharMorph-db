@@ -19,16 +19,29 @@ armature:
     type: rigify
     file: ../../shared_lib.blend
     obj_name: metarig
+    joints: joints/regular.npz
     weights: weights/tweaked.npz
     tweaks:
       - ../../tweaks/rigify_default.yaml
       - tweaks/eyes.yaml
       - tweaks/tweaked.yaml
   -
+    title: Basic muscles
+    type: rigify
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    mixin: muscles
+    joints: joints/muscles.npz
+    weights: weights/muscles.npz
+    tweaks:
+      - ../../tweaks/rigify_default.yaml
+      - ../../tweaks/muscles.yaml
+  -
     title: Original
     type: rigify
     file: ../../shared_lib.blend
     obj_name: metarig
+    joints: joints/regular.npz
     weights: weights/original.npz
     tweaks:
       - ../../tweaks/rigify_default.yaml
@@ -39,6 +52,7 @@ armature:
     type: regular
     file: ../../shared_lib.blend
     obj_name: metarig
+    joints: joints/regular.npz
     weights: weights/gaming.npz
 
 materials:
