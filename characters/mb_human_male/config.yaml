@@ -2,19 +2,21 @@ title: Human male (MB-Lab, AGPL3)
 author: Manuel Bastioni
 license: AGPL3
 
-default_type: Caucasian
 char_file: char.blend
 char_obj: mb_male
 material_lib: ../../shared_lib.blend
 
+default_type: Caucasian
+default_armature: tweaked
 default_hair_length: 0.1
+
 #hair_library: hair.blend
 #hair_obj: hair
 hairstyles: []
 
 bones: ../../mb_bones.yaml
 armature:
-  -
+  tweaked:
     title: Tweaked
     type: rigify
     file: ../../shared_lib.blend
@@ -25,7 +27,7 @@ armature:
       - ../../tweaks/rigify_default.yaml
       - tweaks/eyes.yaml
       - tweaks/tweaked.yaml
-  -
+  muscles:
     title: Basic muscles
     type: rigify
     file: ../../shared_lib.blend
@@ -36,7 +38,7 @@ armature:
     tweaks:
       - ../../tweaks/rigify_default.yaml
       - ../../tweaks/muscles.yaml
-  -
+  orig:
     title: Original
     type: rigify
     file: ../../shared_lib.blend
@@ -47,7 +49,7 @@ armature:
       - ../../tweaks/rigify_default.yaml
       - tweaks/eyes.yaml
       - ../../tweaks/spine_nobendy.yaml
-  -
+  gaming:
     title: Gaming
     type: regular
     file: ../../shared_lib.blend
