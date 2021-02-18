@@ -14,14 +14,19 @@ default_hair_length: 0.1
 #hair_obj: hair
 hairstyles: []
 
-bones: ../../mb_bones.yaml
+armature_defaults:
+  type: rigify
+  bones: ../../mb_bones.yaml
+  mixin_bones:
+    default:
+      roll: keep-z
+  file: ../../shared_lib.blend
+  obj_name: metarig
+  joints: joints/regular.npz
+
 armature:
   tweaked:
     title: Tweaked
-    type: rigify
-    file: ../../shared_lib.blend
-    obj_name: metarig
-    joints: joints/regular.npz
     weights: weights/tweaked.npz
     tweaks:
       - ../../tweaks/rigify_default.yaml
@@ -29,9 +34,6 @@ armature:
       - tweaks/tweaked.yaml
   muscles:
     title: Basic muscles
-    type: rigify
-    file: ../../shared_lib.blend
-    obj_name: metarig
     mixin: muscles
     joints: joints/muscles.npz
     weights: weights/muscles.npz
@@ -40,10 +42,6 @@ armature:
       - ../../tweaks/muscles.yaml
   orig:
     title: Original
-    type: rigify
-    file: ../../shared_lib.blend
-    obj_name: metarig
-    joints: joints/regular.npz
     weights: weights/original.npz
     tweaks:
       - ../../tweaks/rigify_default.yaml
@@ -52,9 +50,6 @@ armature:
   gaming:
     title: Gaming
     type: regular
-    file: ../../shared_lib.blend
-    obj_name: metarig
-    joints: joints/regular.npz
     weights: weights/gaming.npz
 
 materials:

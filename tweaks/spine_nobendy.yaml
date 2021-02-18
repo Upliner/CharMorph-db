@@ -1,4 +1,4 @@
-# Spine bones for the character aren't originally designed to be bendy. Disable bending for them
+# Spine bones for MB-Lab characters aren't originally designed to be bendy. Disable bending for them
 -
   select: bone
   bone: DEF-spine
