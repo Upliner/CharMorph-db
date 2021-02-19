@@ -22,7 +22,7 @@ armature_defaults:
     bones: ../../mb_bones.yaml
     mixin_bones:
         default:
-            roll: keep-z
+            axis_z: keep
     file: ../../shared_lib.blend
     obj_name: metarig
     joints: joints/original.npz
