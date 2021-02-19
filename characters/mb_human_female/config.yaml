@@ -13,78 +13,78 @@ default_hair_length: 0.3
 hair_library: hair.blend
 hair_obj: hair
 hairstyles:
-  - symmetric1
-  - back1
-  - frontback1
+    - symmetric1
+    - back1
+    - frontback1
 
 armature_defaults:
-  type: rigify
-  bones: ../../mb_bones.yaml
-  mixin_bones:
-    default:
-      roll: keep-z
-  file: ../../shared_lib.blend
-  obj_name: metarig
-  joints: joints/original.npz
+    type: rigify
+    bones: ../../mb_bones.yaml
+    mixin_bones:
+        default:
+            roll: keep-z
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    joints: joints/original.npz
 
 armature:
-  tweaked:
-    title: Tweaked
-    joints: joints/tweaked.npz
-    weights: weights/tweaked.npz
-    tweaks:
-      - ../../tweaks/rigify_default.yaml
-      - rigify_sliding_joints.yaml
-  muscles:
-    title: Basic muscles
-    mixin: muscles
-    joints: joints/muscles.npz
-    weights: weights/muscles.npz
-    tweaks:
-      - ../../tweaks/rigify_default.yaml
-      - ../../tweaks/muscles.yaml
-  orig:
-    title: Original
-    tweaks: ../../tweaks/rigify_default.yaml
-  gaming:
-    title: Gaming
-    type: regular
-    weights: weights/gaming.npz
+    tweaked:
+        title: Tweaked
+        joints: joints/tweaked.npz
+        weights: weights/tweaked.npz
+        tweaks:
+            - ../../tweaks/rigify_default.yaml
+            - rigify_sliding_joints.yaml
+    muscles:
+        title: Basic muscles
+        mixin: muscles
+        joints: joints/muscles.npz
+        weights: weights/muscles.npz
+        tweaks:
+            - ../../tweaks/rigify_default.yaml
+            - ../../tweaks/muscles.yaml
+    orig:
+        title: Original
+        tweaks: ../../tweaks/rigify_default.yaml
+    gaming:
+        title: Gaming
+        type: regular
+        weights: weights/gaming.npz
 
 materials:
-  - charmorph_skin
-  - charmorph_censor
-  - MBlab_eyelash
-  - MBlab_pupil
-  - MBlab_human_eyes
-  - MBlab_cornea
-  - charmorph_iris
-  - MBLab_tongue
-  - MBlab_human_teeth
-  - charmorph_nails
+    - charmorph_skin
+    - charmorph_censor
+    - MBlab_eyelash
+    - MBlab_pupil
+    - MBlab_human_eyes
+    - MBlab_cornea
+    - charmorph_iris
+    - MBLab_tongue
+    - MBlab_human_teeth
+    - charmorph_nails
 
 types:
-  Caucasian:
-    mtl_props:
-      skin_color: &col1 [0.896, 0.456, 0.279]
-      nails_natural_color: *col1
-  Anime:
-    mtl_props:
-      skin_color: *col1
-      nails_natural_color: *col1
-  Elf:
-    mtl_props:
-      skin_color: *col1
-      nails_natural_color: *col1
-  Latin:
-    mtl_props:
-      skin_color: &col2 [0.485, 0.147, 0.080]
-      nails_natural_color: *col2
-  Asian:
-    mtl_props:
-      skin_color: *col2
-      nails_natural_color: *col2
-  African:
-    mtl_props:
-      skin_color: &col3 [0.07, 0.033, 0.026]
-      nails_natural_color: *col3
+    Caucasian:
+        mtl_props:
+            skin_color: &col1 [0.896, 0.456, 0.279]
+            nails_natural_color: *col1
+    Anime:
+        mtl_props:
+            skin_color: *col1
+            nails_natural_color: *col1
+    Elf:
+        mtl_props:
+            skin_color: *col1
+            nails_natural_color: *col1
+    Latin:
+        mtl_props:
+            skin_color: &col2 [0.485, 0.147, 0.080]
+            nails_natural_color: *col2
+    Asian:
+        mtl_props:
+            skin_color: *col2
+            nails_natural_color: *col2
+    African:
+        mtl_props:
+            skin_color: &col3 [0.07, 0.033, 0.026]
+            nails_natural_color: *col3

@@ -15,84 +15,84 @@ default_hair_length: 0.1
 hairstyles: []
 
 armature_defaults:
-  type: rigify
-  bones: ../../mb_bones.yaml
-  mixin_bones:
-    default:
-      roll: keep-z
-  file: ../../shared_lib.blend
-  obj_name: metarig
-  joints: joints/regular.npz
+    type: rigify
+    bones: ../../mb_bones.yaml
+    mixin_bones:
+        default:
+            roll: keep-z
+    file: ../../shared_lib.blend
+    obj_name: metarig
+    joints: joints/regular.npz
 
 armature:
-  tweaked:
-    title: Tweaked
-    weights: weights/tweaked.npz
-    tweaks:
-      - ../../tweaks/rigify_default.yaml
-      - tweaks/eyes.yaml
-      - tweaks/tweaked.yaml
-  muscles:
-    title: Basic muscles
-    mixin: muscles
-    joints: joints/muscles.npz
-    weights: weights/muscles.npz
-    tweaks:
-      - ../../tweaks/rigify_default.yaml
-      - ../../tweaks/muscles.yaml
-  orig:
-    title: Original
-    weights: weights/original.npz
-    tweaks:
-      - ../../tweaks/rigify_default.yaml
-      - tweaks/eyes.yaml
-      - ../../tweaks/spine_nobendy.yaml
-  gaming:
-    title: Gaming
-    type: regular
-    weights: weights/gaming.npz
+    tweaked:
+        title: Tweaked
+        weights: weights/tweaked.npz
+        tweaks:
+            - ../../tweaks/rigify_default.yaml
+            - tweaks/eyes.yaml
+            - tweaks/tweaked.yaml
+    muscles:
+        title: Basic muscles
+        mixin: muscles
+        joints: joints/muscles.npz
+        weights: weights/muscles.npz
+        tweaks:
+            - ../../tweaks/rigify_default.yaml
+            - ../../tweaks/muscles.yaml
+    orig:
+        title: Original
+        weights: weights/original.npz
+        tweaks:
+            - ../../tweaks/rigify_default.yaml
+            - tweaks/eyes.yaml
+            - ../../tweaks/spine_nobendy.yaml
+    gaming:
+        title: Gaming
+        type: regular
+        weights: weights/gaming.npz
 
 materials:
-  - charmorph_skin_v2
-  - charmorph_censor
-  - MBlab_eyelash
-  - MBlab_pupil
-  - MBlab_human_eyes
-  - MBlab_cornea
-  - charmorph_iris
-  - MBLab_tongue
-  - MBlab_human_teeth
-  - charmorph_nails_v2
+    - charmorph_skin_v2
+    - charmorph_censor
+    - MBlab_eyelash
+    - MBlab_pupil
+    - MBlab_human_eyes
+    - MBlab_cornea
+    - charmorph_iris
+    - MBLab_tongue
+    - MBlab_human_teeth
+    - charmorph_nails_v2
 
 types:
-  Caucasian:
-    mtl_props:
-      skin_color: &col1 [0.896, 0.456, 0.279]
-      nails_natural_color: *col1
-  Anime:
-    morphs_meta: morphs_meta_fantasy.yaml
-    mtl_props:
-      skin_color: *col1
-      nails_natural_color: *col1
-  Elf:
-    morphs_meta: morphs_meta_fantasy.yaml
-    mtl_props:
-      skin_color: *col1
-      nails_natural_color: *col1
-  Latin:
-    mtl_props:
-      skin_color: &col2 [0.485, 0.147, 0.080]
-      nails_natural_color: *col2
-  Dwarf:
-    morphs_meta: morphs_meta_fantasy.yaml
-    mtl_props:
-      skin_color: *col2
-      nails_natural_color: *col2
-  Asian:
-    mtl_props:
-      skin_color: *col2
-      nails_natural_color: *col2
-  African:
-    mtl_props:
-      skin_color: &col3 [0.07, 0.033, 0.026]
-      nails_natural_color: *col3
+    Caucasian:
+        mtl_props:
+            skin_color: &col1 [0.896, 0.456, 0.279]
+            nails_natural_color: *col1
+    Anime:
+        morphs_meta: morphs_meta_fantasy.yaml
+        mtl_props:
+            skin_color: *col1
+            nails_natural_color: *col1
+    Elf:
+        morphs_meta: morphs_meta_fantasy.yaml
+        mtl_props:
+            skin_color: *col1
+            nails_natural_color: *col1
+    Latin:
+        mtl_props:
+            skin_color: &col2 [0.485, 0.147, 0.080]
+            nails_natural_color: *col2
+    Dwarf:
+        morphs_meta: morphs_meta_fantasy.yaml
+        mtl_props:
+            skin_color: *col2
+            nails_natural_color: *col2
+    Asian:
+        mtl_props:
+            skin_color: *col2
+            nails_natural_color: *col2
+    African:
+        mtl_props:
+            skin_color: &col3 [0.07, 0.033, 0.026]
+            nails_natural_color: *col3
