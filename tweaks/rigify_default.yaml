@@ -1,16 +1,5 @@
-# Strong movement of lower eyelids looks weird to me so I lower influence for it
--
-  select: constraint
-  type: COPY_LOCATION
-  bone: lid.B.L.002
-  target_bone: MCH-eye.L.001
-  set: {influence: 0.25}
--
-  select: constraint
-  type: COPY_LOCATION
-  bone: lid.B.R.002
-  target_bone: MCH-eye.R.001
-  set: {influence: 0.25}
+- eyes.yaml
+- cheeks.yaml
 
 # Lower lip stretches too much when opening mouth by default so I raise influence to lower this stretch
 -
@@ -25,30 +14,3 @@
   bone: MCH-jaw_master.002
   target_bone: jaw_master
   set: {influence: 0.4}
-
-# Smiles look more realistic when cheek doesn't move too much with lips, so lower influence for it
-
--
-  select: constraint
-  type: COPY_LOCATION
-  bone: cheek.B.L.001
-  target_bone: lips.L
-  set: {influence: 0.25}
--
-  select: constraint
-  type: COPY_LOCATION
-  bone: cheek.T.L.001
-  target_bone: cheek.B.L.001
-  set: {influence: 0.25}
--
-  select: constraint
-  type: COPY_LOCATION
-  bone: cheek.B.R.001
-  target_bone: lips.R
-  set: {influence: 0.25}
--
-  select: constraint
-  type: COPY_LOCATION
-  bone: cheek.T.R.001
-  target_bone: cheek.B.R.001
-  set: {influence: 0.25}

@@ -1,0 +1,78 @@
+- eyes.yaml
+- cheeks.yaml
+- bendy-lips.yaml
+# Lower lip stretches too much when opening mouth by default so I raise influence to lower this stretch
+-
+  select: constraint
+  type: COPY_TRANSFORMS
+  bone: MCH-jaw_master.001
+  target_bone: jaw_master
+  set: {influence: 0.9}
+-
+  select: constraint
+  type: COPY_TRANSFORMS
+  bone: MCH-jaw_master.002
+  target_bone: jaw_master
+  set: {influence: 0.5}
+-
+  select: constraint
+  type: COPY_TRANSFORMS
+  bone: MCH-jaw_master.003
+  target_bone: jaw_master
+  set: {influence: 0.1}
+
+-
+  tweak: assign_parents
+  bones:
+    lip.T: MCH-jaw_master.004
+    nose.005: MCH-jaw_master.004
+    chin.002: MCH-jaw_master
+
+# Use "child of" constraint instead of real parenting of chin and nose to lips
+
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: nose.005
+  target_bone: lip.T
+  action: remove
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: chin.002
+  target_bone: lip.B
+  action: remove
+
+-
+  select: pose_bone
+  bone: nose.005
+  add: constraint
+  type: CHILD_OF
+  set:
+    subtarget: MCH-jaw_master.004
+    influence: 0.5
+-
+  select: pose_bone
+  bone: nose.005
+  add: constraint
+  type: CHILD_OF
+  set:
+    subtarget: lip.T
+    influence: 0.5
+
+-
+  select: pose_bone
+  bone: chin.002
+  add: constraint
+  type: CHILD_OF
+  set:
+    subtarget: MCH-jaw_master
+    influence: 0.75
+-
+  select: pose_bone
+  bone: chin.002
+  add: constraint
+  type: CHILD_OF
+  set:
+    subtarget: lip.B
+    influence: 0.25

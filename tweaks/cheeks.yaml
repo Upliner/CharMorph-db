@@ -1,0 +1,26 @@
+# Smiles look more realistic when cheek doesn't move too much with lips, so lower influence for it
+
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: cheek.B.L.001
+  target_bone: lips.L
+  set: {influence: 0.25}
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: cheek.T.L.001
+  target_bone: cheek.B.L.001
+  set: {influence: 0.25}
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: cheek.B.R.001
+  target_bone: lips.R
+  set: {influence: 0.25}
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: cheek.T.R.001
+  target_bone: cheek.B.R.001
+  set: {influence: 0.25}

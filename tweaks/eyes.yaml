@@ -1,0 +1,13 @@
+# Strong movement of lower eyelids looks weird to me so I lower influence for it
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.B.L.002
+  target_bone: MCH-eye.L.001
+  set: {influence: 0.25}
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.B.R.002
+  target_bone: MCH-eye.R.001
+  set: {influence: 0.25}

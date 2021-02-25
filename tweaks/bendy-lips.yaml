@@ -1,0 +1,53 @@
+-
+  select: edit_bone
+  bone: DEF-lip.T.L
+  extrude:
+    normal: [0, "-len", 0]
+  set:
+    name: MCH-lip.T.L
+    layers: 30
+-
+  select: edit_bone
+  bone: DEF-lip.T.R
+  extrude:
+    normal: [0, "-len", 0]
+  set:
+    name: MCH-lip.T.R
+    layers: 30
+-
+  select: edit_bone
+  bone: DEF-lip.B.L
+  extrude:
+    normal:  [0, "-len", 0]
+  set:
+    name: MCH-lip.B.L
+    layers: 30
+-
+  select: edit_bone
+  bone: DEF-lip.B.R
+  extrude:
+    normal:  [0, "-len", 0]
+  set:
+    name: MCH-lip.B.R
+    layers: 30
+
+-
+  select: bone
+  bone: DEF-lip.T.L
+  set:
+    bbone_custom_handle_start: MCH-lip.T.R
+-
+  select: bone
+  bone: DEF-lip.T.R
+  set:
+    bbone_custom_handle_start: MCH-lip.T.L
+-
+  select: bone
+  bone: DEF-lip.B.L
+  set:
+    bbone_custom_handle_start: MCH-lip.B.R
+-
+  select: bone
+  bone: DEF-lip.B.R
+  set:
+    bbone_custom_handle_start: MCH-lip.B.L
