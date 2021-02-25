@@ -13,7 +13,7 @@
   type: COPY_TRANSFORMS
   bone: MCH-jaw_master.002
   target_bone: jaw_master
-  set: {influence: 0.5}
+  set: {influence: 0.4}
 -
   select: constraint
   type: COPY_TRANSFORMS
