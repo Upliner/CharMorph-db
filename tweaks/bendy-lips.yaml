@@ -6,6 +6,8 @@
   set:
     name: MCH-lip.T.L
     bbone_segments: 2
+    bbone_easein: 0
+    bbone_easeout: 0
     layers: 30
 -
   select: edit_bone
@@ -15,6 +17,8 @@
   set:
     name: MCH-lip.T.R
     bbone_segments: 2
+    bbone_easein: 0
+    bbone_easeout: 0
     layers: 30
 -
   select: edit_bone
@@ -24,6 +28,8 @@
   set:
     name: MCH-lip.B.L
     bbone_segments: 2
+    bbone_easein: 0
+    bbone_easeout: 0
     layers: 30
 -
   select: edit_bone
@@ -33,6 +39,8 @@
   set:
     name: MCH-lip.B.R
     bbone_segments: 2
+    bbone_easein: 0
+    bbone_easeout: 0
     layers: 30
 
 -
