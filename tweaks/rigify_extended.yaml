@@ -25,8 +25,8 @@
   tweak: assign_parents
   bones:
     lip.T: MCH-jaw_master.004
-    nose.005: MCH-jaw_master.004
-    chin.002: MCH-jaw_master
+    nose.005: null
+    chin.002: null
 
 # Use "child of" constraint instead of real parenting of chin and nose to lips
 
