@@ -45,6 +45,7 @@ armature:
             - ../../tweaks/muscles.yaml
     orig:
         title: Original
+        weights: weights/original.npz
         tweaks: ../../tweaks/rigify_default.yaml
     gaming:
         title: Gaming
