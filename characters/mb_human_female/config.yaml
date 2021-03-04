@@ -20,9 +20,6 @@ hairstyles:
 armature_defaults:
     type: rigify
     bones: ../../mb_bones.yaml
-    mixin_bones:
-        default:
-            axis_z: keep
     file: ../../shared_lib.blend
     obj_name: metarig
     joints: joints/original.npz
@@ -38,6 +35,9 @@ armature:
     muscles:
         title: Basic muscles
         mixin: muscles
+        mixin_bones:
+            default:
+                axis_z: keep
         joints: joints/muscles.npz
         weights: weights/muscles.npz
         tweaks:
