@@ -1,6 +1,7 @@
 - eyes.yaml
 - cheeks.yaml
 - bendy-lips.yaml
+
 # Lower lip stretches too much when opening mouth by default so I raise influence to lower this stretch
 -
   select: constraint
@@ -28,7 +29,7 @@
     nose.005: null
     chin.002: null
 
-# Use "child of" constraint instead of real parenting of chin and nose to lips
+# Use armature constraint instead of real parenting of chin and nose to lips
 
 -
   select: constraint
@@ -47,32 +48,69 @@
   select: pose_bone
   bone: nose.005
   add: constraint
-  type: CHILD_OF
+  type: ARMATURE
   set:
-    subtarget: MCH-jaw_master.004
-    influence: 0.5
+    targets:
+      MCH-jaw_master.004: 0.5
+      lip.T: 0.5
 -
   select: pose_bone
-  bone: nose.005
+  bone: chin.002
   add: constraint
-  type: CHILD_OF
+  type: ARMATURE
   set:
-    subtarget: lip.T
-    influence: 0.5
+    targets:
+      MCH-jaw_master: 0.75
+      lip.B: 0.25
+
+# Tweaks for abdomen expansion bones
+-
+  select: edit_bone
+  bone: ORG-abdomen
+  action: copy
+  set:
+    name: MCH-abdomen
+    layers: 30
+
+-
+  tweak: assign_parents
+  bones:
+    ORG-abdomen: null
+    ORG-abdomen.001: ORG-abdomen
+    abdomen: MCH-abdomen
+    abdomen.001: ORG-abdomen.001
+    DEF-abdomen: abdomen
+    DEF-abdomen.001: abdomen.001
+
+-
+  select: constraint
+  bone: ORG-abdomen
+  type: COPY_TRANSFORMS
+  set:
+    target_space: LOCAL
+    owner_space: LOCAL
+
+-
+  select: constraint
+  bone: ORG-abdomen.001
+  type: COPY_TRANSFORMS
+  stage: pre
+  action: remove
 
 -
   select: pose_bone
-  bone: chin.002
+  bone: MCH-abdomen
   add: constraint
-  type: CHILD_OF
+  type: ARMATURE
   set:
-    subtarget: MCH-jaw_master
-    influence: 0.75
+    targets:
+      DEF-spine.001: 1
+
 -
   select: pose_bone
-  bone: chin.002
+  bone: abdomen.001
   add: constraint
-  type: CHILD_OF
+  type: ARMATURE
   set:
-    subtarget: lip.B
-    influence: 0.25
+    targets:
+      DEF-spine.002: 1
