@@ -1,0 +1,106 @@
+=== ABOUT ANTONIA POLYGON ===
+
+Antonia is an original Poser figure by Olaf Delgado-Friedrichs
+(Antonia.Polygon@gmail.com or odf at renderosity.com) with
+contributions from phantom3D, MikeJ and others.
+
+Antonia was created using Wings3D, Poser and DAZ Studio, as well as a
+number of home-made software tools. As of October 2008, the
+development of the figure has been documented and discussed in the
+Poser forum at Renderosity (http://www.renderosity.com), and the
+project owes a lot to the continuing feedback and support of the
+Renderosity community.
+
+Please note that Antonia is not a commercial figure and has been
+developed over several years on the various contributors' spare time.
+Because of this, you may not find everything you'd expect from a
+full-fledged Poser figure right in this package. Some extra content
+such as textures, clothing, pose sets and so on is available from
+BlueEcho's Antonia site (see below), and more may be found across the
+web.
+
+Please note that while Antonia itself is provided free of charge with
+very liberal licensing, this is not necessarily true for related
+content that is distributed separately. In particularly, the creation
+of commercial packages based on or related to Antonia is explicitly
+encouraged.
+
+Obviously, if you use Antonia for any published or commercial work, I
+would love to hear about it. If you redistribute Antonia or any
+derivative work, you must, according to the license (see below),
+acknowledge me as the original creator of the figure, but you do not
+have to ask for my permission.
+
+
+For further information and free content, visit these sites:
+
+Home page:    http://sites.google.com/site/antoniapolygon
+Wiki:         http://www.renderosity.com/mod/rrwiki/index.php/Antonia
+Free content: http://www.bluecho4u3d.com/Antonia
+Cutting edge: http://github.com/odf/Antonia.Polygon
+
+
+=== ABOUT THIS RELEASE (VERSION 1.2.0) ===
+
+This is the second stable release of Antonia Polygon. Please note that
+poses and full-body morphs made for version 1.0.0 and earlier may not
+work on this version, since the former 'hip2' actor has been renamed
+to 'hip' and the former 'hip' actor to 'waist'. The change became
+necessary in order to make Wardrobe Wizard support possible.
+
+In general, it should be very easy to update files using the old actor
+names: replace 'hip' with 'waist' everywhere in the file, and then
+replace 'waist2' with 'hip'. Be careful if your file contains 'hip' or
+'waist' as parts of longer words, though. For example, a brute-force
+replacement as described above would turn the word 'shipment' into
+'swaistment'.
+
+Currently, only Poser 6 and later are supported. The base figure
+should however work fine with Poser 4 and most software that can
+accept Poser 4 content.
+
+
+=== LICENSING ===
+
+This work is licensed under the Creative Commons Attribution 3.0
+Unported License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/3.0/ or send a letter to
+Creative Commons, 171 Second Street, Suite 300, San Francisco,
+California, 94105, USA.
+
+
+=== WHAT THE LICENSE MEANS ===
+
+(DISCLAIMER: The following is not a license and has no legal
+implications.  It is simply a human-readable expression of the
+key-terms of the license.  It is based on the license deed as provided
+by Creative Commons under the URL
+http://creativecommons.org/licenses/by/3.0, with a modification in the
+last sentence.)
+
+You are free:
+
+    * to Share — to copy, distribute and transmit the work
+    * to Remix — to adapt the work
+
+Under the following conditions:
+
+    * Attribution — You must attribute the work in the manner
+      specified by the author or licensor (but not in any way that
+      suggests that they endorse you or your use of the work).
+
+With the understanding that:
+
+    * Waiver — Any of the above conditions can be waived if you get
+      permission from the copyright holder.
+    * Other Rights — In no way are any of the following rights
+      affected by the license:
+          o Your fair dealing or fair use rights;
+          o The author's moral rights;
+          o Rights other persons may have either in the work itself or
+            in how the work is used, such as publicity or privacy
+            rights.
+    * Notice — For any reuse or distribution, you must make clear to
+      others the license terms of this work. The best way to do this
+      is by including a copy of this file or a link to Antonia's
+      homepage at http://sites.google.com/site/antoniapolygon/.

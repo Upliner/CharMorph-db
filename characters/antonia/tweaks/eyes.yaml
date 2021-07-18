@@ -1,0 +1,26 @@
+# Sometimes particle eyelashes deform badly when eye controllers are moving left and right
+# Still not sure whether I should disable it
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.B.L.002
+  target_bone: MCH-eye.L.001
+  set: {use_x: false}
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.B.R.002
+  target_bone: MCH-eye.R.001
+  set: {use_x: false}
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.T.L.002
+  target_bone: MCH-eye.L.001
+  set: {use_x: false}
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.T.R.002
+  target_bone: MCH-eye.R.001
+  set: {use_x: false}

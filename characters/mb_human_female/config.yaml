@@ -10,6 +10,8 @@ default_type: Caucasian
 default_armature: tweaked
 default_hair_length: 0.3
 
+randomize_excl_regex: ^Fantasy
+
 hair_library: hair.blend
 hair_obj: hair
 hairstyles:

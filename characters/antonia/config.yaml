@@ -1,0 +1,36 @@
+title: Antonia Polygon (CC-BY)
+author: Olaf Delgado-Friedrichs
+additional_authors: phantom3D, MikeJ, DieTrying (Morphs), Fenrissa and others
+url: https://sites.google.com/site/antoniapolygon/
+license: CC-BY 3.0
+
+char_obj: cm_antonia
+default_hair_length: 0.3
+default_armature: rigify
+
+randomize_excl_regex: (left|right|gone)$
+
+materials: [cm_antonia_cornea, cm_antonia_iris, cm_antonia_head, cm_antonia_head, cm_antonia_mouth, cm_antonia_nails, cm_antonia_nails, charmorph_pupil, cm_antonia_sclera, cm_antonia_arms, cm_antonia_body, cm_antonia_head, cm_antonia_legs, cm_antonia_mouth, cm_antonia_mouth, charmorph_eyelashes]
+
+underwear:
+  - panties
+  - bra
+
+hairstyles:
+  - eyelashes0
+
+armature:
+  rigify:
+    bones:
+      default:
+        axis_z: keep
+      #TODO: Bending angle!
+    title: Default (Rigify)
+    type: rigify
+    obj_name: metarig
+    joints: joints/default.npz
+    weights: weights/default.npz
+    tweaks:
+      - ../../tweaks/rigify_extended.yaml
+      - tweaks/rigify_sliding_joints.yaml
+      #- tweaks/eyes.yaml

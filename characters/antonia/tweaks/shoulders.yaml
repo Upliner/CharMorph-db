@@ -1,0 +1,18 @@
+# T pose is bad for shoulder deformation. I still wonder how to fix it...
+-
+  select: pose_bone
+  bone: MCH-upper_arm_tweak.L
+  add: constraint
+  type: COPY_ROTATION
+  set:
+    subtarget: ORG-upper_arm.L
+    influence: 0.5
+
+-
+  select: pose_bone
+  bone: MCH-upper_arm_tweak.R
+  add: constraint
+  type: COPY_ROTATION
+  set:
+    subtarget: ORG-upper_arm.R
+    influence: 0.5
