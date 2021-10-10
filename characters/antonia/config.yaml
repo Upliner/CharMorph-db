@@ -25,8 +25,22 @@ armature:
       default:
         axis_z: keep
       #TODO: Bending angle!
+    ik_limits:
+      MCH-forearm_ik.L:
+        min: -40
+        max: 130
+      MCH-forearm_ik.R:
+        min: -40
+        max: 130
+      MCH-shin_ik.L:
+        min: -5
+        max: 160
+      MCH-shin_ik.R:
+        min: -5
+        max: 160
     title: Default (Rigify)
     type: rigify
+    file: metarig.blend
     obj_name: metarig
     joints: joints/default.npz
     weights: weights/default.npz
