@@ -1,0 +1,41 @@
+title: Reom
+author: ComplexAce
+additional_authors: Hope
+license: Unknown
+
+char_obj: cm_reom
+default_hair_length: 0.1
+default_armature: rigify
+
+no_morph_categories: true
+custom_morph_order: true
+recurse_materials: true
+
+materials:
+  - Sclera_Cornea
+  - Iris
+  - Pupil
+  - Face
+  - Torso
+  - Arms
+  - Legs
+  - Mouth
+  - Tongue
+  - Gums
+  - Teeth
+
+default_assets:
+  - Tearline
+
+#underwear:
+#  - underpants
+
+armature:
+  rigify:
+    title: Rigify
+    type: rigify
+    obj_name: metarig
+  arp:
+    title: ARP
+    type: arp
+    obj_name: rig

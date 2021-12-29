@@ -60,7 +60,7 @@ materials:
     - MBlab_eyelash
     - MBlab_pupil
     - MBlab_human_eyes
-    - MBlab_cornea
+    - charmorph_cornea
     - charmorph_iris
     - MBLab_tongue
     - MBlab_human_teeth
