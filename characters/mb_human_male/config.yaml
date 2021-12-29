@@ -1,4 +1,4 @@
-title: Human male (MB-Lab, AGPL3)
+title: MB-Lab male (AGPL3)
 author: Manuel Bastioni
 license: AGPL3
 
@@ -38,13 +38,11 @@ armature:
             default:
                 axis_z: keep
         joints: joints/muscles.npz
-        weights: weights/muscles.npz
         tweaks:
             - ../../tweaks/rigify_default.yaml
             - ../../tweaks/muscles.yaml
-    orig:
+    original:
         title: Original
-        weights: weights/original.npz
         tweaks:
             - ../../tweaks/rigify_default.yaml
             - tweaks/eyes.yaml

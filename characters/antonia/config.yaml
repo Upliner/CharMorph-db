@@ -42,8 +42,6 @@ armature:
     type: rigify
     file: metarig.blend
     obj_name: metarig
-    joints: joints/default.npz
-    weights: weights/default.npz
     tweaks:
       - ../../tweaks/rigify_extended.yaml
       - tweaks/rigify_sliding_joints.yaml

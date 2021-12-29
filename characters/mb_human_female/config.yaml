@@ -1,10 +1,11 @@
-title: Human female (MB-Lab, AGPL3)
+title: MB-Lab female (AGPL3)
 author: Manuel Bastioni
 license: AGPL3
 
 char_file: char.blend
 char_obj: mb_female
 material_lib: ../../shared_lib.blend
+basis: Caucasian
 
 default_type: Caucasian
 default_armature: tweaked
@@ -24,13 +25,10 @@ armature_defaults:
     bones: ../../mb_bones.yaml
     file: ../../shared_lib.blend
     obj_name: metarig
-    joints: joints/original.npz
 
 armature:
     tweaked:
         title: Tweaked
-        joints: joints/tweaked.npz
-        weights: weights/tweaked.npz
         tweaks:
             - ../../tweaks/rigify_default.yaml
             - rigify_sliding_joints.yaml
@@ -40,19 +38,16 @@ armature:
         mixin_bones:
             default:
                 axis_z: keep
-        joints: joints/muscles.npz
-        weights: weights/muscles.npz
         tweaks:
             - ../../tweaks/rigify_default.yaml
             - ../../tweaks/muscles.yaml
-    orig:
+    original:
         title: Original
-        weights: weights/original.npz
         tweaks: ../../tweaks/rigify_default.yaml
     gaming:
         title: Gaming
         type: regular
-        weights: weights/gaming.npz
+        joints: joints/original.npz
 
 materials:
     - charmorph_skin
