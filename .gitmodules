@@ -1,6 +1,6 @@
-[submodule "characters/mb_human_female/assets"]
+[submodule "characters/mb_female/assets"]
 	path = characters/mb_female/assets
 	url = https://github.com/Upliner/mb-assets
-[submodule "characters/mb_human_male/assets"]
+[submodule "characters/mb_male/assets"]
 	path = characters/mb_male/assets
 	url = https://github.com/Upliner/mb-assets
