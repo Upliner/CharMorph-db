@@ -5,6 +5,7 @@ url: https://sites.google.com/site/antoniapolygon/
 license: CC-BY 3.0
 
 char_obj: cm_antonia
+basis: Default
 default_hair_length: 0.3
 default_armature: rigify
 

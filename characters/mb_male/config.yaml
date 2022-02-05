@@ -5,6 +5,7 @@ license: AGPL3
 char_file: char.blend
 char_obj: mb_male
 material_lib: ../../shared_lib.blend
+basis: Caucasian
 
 default_type: Caucasian
 default_armature: tweaked

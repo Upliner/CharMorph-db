@@ -4,6 +4,7 @@ additional_authors: Hope
 license: Unknown
 
 char_obj: cm_reom
+basis: Default
 default_hair_length: 0.1
 default_armature: rigify
 
