@@ -31,7 +31,17 @@ armature:
         title: Tweaked
         tweaks:
             - ../../tweaks/rigify_default.yaml
-            - rigify_sliding_joints.yaml
+        sliding_joints:
+            elbows:
+                upper_bone: upper_arm
+                lower_bone: forearm
+                side: [".L", ".R"]
+                influence: 0.08
+            knees:
+                upper_bone: thigh
+                lower_bone: shin
+                side: [".L", ".R"]
+                influence: 0.05
     muscles:
         title: Basic muscles
         mixin: muscles
