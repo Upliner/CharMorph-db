@@ -11,7 +11,23 @@ default_armature: rigify
 
 randomize_excl_regex: (left|right|gone)$
 
-materials: [cm_antonia_cornea, cm_antonia_iris, cm_antonia_head, cm_antonia_head, cm_antonia_mouth, cm_antonia_nails, cm_antonia_nails, charmorph_pupil, cm_antonia_sclera, cm_antonia_arms, cm_antonia_body, cm_antonia_head, cm_antonia_legs, cm_antonia_mouth, cm_antonia_mouth, charmorph_eyelashes]
+materials:
+  - cm_antonia_cornea
+  - cm_antonia_iris
+  - cm_antonia_head
+  - cm_antonia_head
+  - cm_antonia_mouth
+  - cm_antonia_nails
+  - cm_antonia_nails
+  - charmorph_pupil
+  - cm_antonia_sclera
+  - cm_antonia_arms
+  - cm_antonia_body
+  - cm_antonia_head
+  - cm_antonia_legs
+  - cm_antonia_mouth
+  - cm_antonia_mouth
+  - charmorph_eyelashes
 
 underwear:
   - panties
