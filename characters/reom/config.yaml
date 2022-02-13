@@ -7,6 +7,7 @@ char_obj: cm_reom
 basis: Default
 default_hair_length: 0.1
 default_armature: rigify
+default_texture_set: 4K
 
 custom_morph_order: true
 recurse_materials: true
