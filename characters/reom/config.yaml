@@ -9,6 +9,13 @@ default_hair_length: 0.1
 default_armature: rigify
 default_texture_set: 4K
 
+hair_library: eyebrows.blend
+hair_obj: EyeBrows
+hair_shrinkwrap: true
+force_hair_scalp: true
+hair_shrinkwrap_offset: 0.0002
+hairstyles: [Eyebrows001, Eyebrows002, Eyebrows003, Eyebrows004, Eyebrows005, Eyebrows006, Eyebrows007, Eyebrows008, Eyebrows009, Eyebrows010, Eyebrows011, Eyebrows012]
+
 custom_morph_order: true
 recurse_materials: true
 
