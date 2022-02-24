@@ -1,0 +1,43 @@
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.T.L.001
+  target_bone: lid.T.L.002
+  set:
+    influence: 0.72
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.T.L.003
+  target_bone: lid.T.L.002
+  set:
+    influence: 0.9
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.B.L.003
+  target_bone: lid.B.L.002
+  set:
+    influence: 0.75
+
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.T.R.001
+  target_bone: lid.T.R.002
+  set:
+    influence: 0.72
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.T.R.003
+  target_bone: lid.T.R.002
+  set:
+    influence: 0.9
+-
+  select: constraint
+  type: COPY_LOCATION
+  bone: lid.B.R.003
+  target_bone: lid.B.R.002
+  set:
+    influence: 0.75

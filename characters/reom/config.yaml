@@ -43,6 +43,7 @@ armature:
     title: Rigify
     type: rigify
     obj_name: metarig
+    tweaks: eyes.yaml
   arp:
     title: ARP
     type: arp
