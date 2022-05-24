@@ -85,6 +85,7 @@ types:
             skin_color: *col1
             nails_natural_color: *col1
     Latin:
+        L2: Asian
         mtl_props:
             skin_color: &col2 [0.485, 0.147, 0.080]
             nails_natural_color: *col2
