@@ -38,17 +38,19 @@ default_assets:
 #underwear:
 #  - underpants
 
+armature_defaults:
+    type: rigify
+    file: rigs.blend
+
 armature:
   rigify2:
     title: Rigify
-    type: rigify
     weights: weights/rigify.npz
     joints: joints/rigify.npz
     obj_name: metarig
     no_legacy: true
   rigify:
     title: Rigify Legacy
-    type: rigify
     joints: joints/rigify_legacy.npz
     obj_name: metarig_legacy
     tweaks: eyes.yaml
