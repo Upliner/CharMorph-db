@@ -16,6 +16,7 @@
     { "morph": "Race_SouthAsian"},
     { "morph": "Race_Hispanic"},
     { "morph": "Race_Whiteman"},
+	{ "morph": "Race_MiddleEastern"},
     { "morph": "Race_SouthAsian_Bengali"},
     { "morph": "Race_SouthAsian_Kannada"},
     { "morph": "Race_SouthAsian_Marathi"},
