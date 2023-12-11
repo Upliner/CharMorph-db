@@ -8,7 +8,7 @@
     bbone_segments: 2
     bbone_easein: 0
     bbone_easeout: 0
-    layers: 30
+    layers: 30:MCH
 -
   select: edit_bone
   bone: DEF-lip.T.R
@@ -19,7 +19,7 @@
     bbone_segments: 2
     bbone_easein: 0
     bbone_easeout: 0
-    layers: 30
+    layers: 30:MCH
 -
   select: edit_bone
   bone: DEF-lip.B.L
@@ -30,7 +30,7 @@
     bbone_segments: 2
     bbone_easein: 0
     bbone_easeout: 0
-    layers: 30
+    layers: 30:MCH
 -
   select: edit_bone
   bone: DEF-lip.B.R
@@ -41,7 +41,7 @@
     bbone_segments: 2
     bbone_easein: 0
     bbone_easeout: 0
-    layers: 30
+    layers: 30:MCH
 
 -
   select: bone

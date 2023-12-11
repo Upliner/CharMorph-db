@@ -70,6 +70,7 @@ armature:
         verts_mul: [[7008, 20252], [2700, 25148], [6186, 20252], [1878, 25148]]
         verts_div: [[6186, 7039], [1878, 2731]]
         calc: (verts_mul/verts_div)**3*3.532
+        default_influence: 0.08
 
       knees:
         upper_bone: thigh
