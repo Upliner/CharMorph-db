@@ -1,9 +1,3 @@
-"*": Non-Color
-
-arms_albedo: sRGB
-body_albedo: sRGB
-head_albedo: sRGB
-legs_albedo: sRGB
-
-eyes: sRGB
-mouth: sRGB
+albedo.<UDIM>: sRGB
+gloss.<UDIM>: Non-Color
+bump.<UDIM>: Non-Color
